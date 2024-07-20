@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "csharpier.csharpier-vscode",
+    "esbenp.prettier-vscode",
+    "ms-dotnettools.csharp",
+    "ms-dotnettools.csdevkit",
+    "bruno-api-client.bruno"
+  ]
+}
