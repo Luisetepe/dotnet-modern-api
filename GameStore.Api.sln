@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Api.Users.Connect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Api.Users.Tests", "src\Users Module\GameStore.Api.Users.Tests\GameStore.Api.Users.Tests.csproj", "{B4CFFD93-4EBC-45DD-B3D2-CDE597921F65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStore.Api.SharedKernel", "src\GameStore.Api.SharedKernel\GameStore.Api.SharedKernel.csproj", "{8157635A-6545-4E3C-944B-0C5ED1EB6EE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{B4CFFD93-4EBC-45DD-B3D2-CDE597921F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4CFFD93-4EBC-45DD-B3D2-CDE597921F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4CFFD93-4EBC-45DD-B3D2-CDE597921F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8157635A-6545-4E3C-944B-0C5ED1EB6EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8157635A-6545-4E3C-944B-0C5ED1EB6EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8157635A-6545-4E3C-944B-0C5ED1EB6EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8157635A-6545-4E3C-944B-0C5ED1EB6EE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{79E0DFF7-D182-499D-A9E3-8E12078C05A0} = {C936F033-DAA2-4AA3-84B1-B425BC141FD7}
@@ -95,5 +101,6 @@ Global
 		{045CE6E7-EA11-4F8C-A08E-53D1DD1DFB42} = {DDEFAC96-5E51-4321-B663-72386C8C4D4F}
 		{2D54DE86-CD12-4214-9CE6-86156C590931} = {3553F5FB-FF09-4E9C-A6B7-80A13091630D}
 		{B4CFFD93-4EBC-45DD-B3D2-CDE597921F65} = {3553F5FB-FF09-4E9C-A6B7-80A13091630D}
+		{8157635A-6545-4E3C-944B-0C5ED1EB6EE1} = {C936F033-DAA2-4AA3-84B1-B425BC141FD7}
 	EndGlobalSection
 EndGlobal
