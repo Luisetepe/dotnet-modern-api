@@ -1,8 +1,9 @@
 using System.Data;
 using System.Reflection;
+using GameStore.Api.Users.Infrastructure.Services.Interfaces;
 using Npgsql;
 
-namespace GameStore.Api.Users.Infrastructure.Persistence;
+namespace GameStore.Api.Users.Infrastructure.Services;
 
 internal class UsersUnitOfWork(NpgsqlDataSource dataSource) : IUsersUnitOfWork, IDisposable
 {

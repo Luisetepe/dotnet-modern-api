@@ -56,3 +56,5 @@ app.UseFastEndpoints().UseSwaggerGen(uiConfig: opt =>
 });
 
 app.Run();
+
+public partial class Program { }

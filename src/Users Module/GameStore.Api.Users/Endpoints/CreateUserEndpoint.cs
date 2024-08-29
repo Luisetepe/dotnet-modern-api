@@ -18,7 +18,7 @@ internal class CreateUserEndpoint(ISender mediator) : Endpoint<CreateUserCommand
         var result = await mediator.Send(req, ct);
         
         await result.Match(
-            response => SendAsync(response, cancellation: ct),
+            response => SendCreatedAtAsync<GetUserEndpoint>(new { Id = response.UserId }, response, cancellation: ct),
             error => SendResultAsync(error.MapToApiResult())
         );
     }
@@ -44,7 +44,7 @@ internal class CreateUserEndpointSwagger : Summary<CreateUserEndpoint>
             }
         };
         Response(
-            200,
+            201,
             "Returns the newly created user identifier.",
             example: new CreateUserResponse
             {

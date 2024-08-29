@@ -1,6 +1,9 @@
 {
   "version": "1",
-  "name": "GameStore Api",
+  "name": "GameStore Api C#",
   "type": "collection",
-  "ignore": ["node_modules", ".git"]
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
 }

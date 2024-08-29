@@ -1,6 +1,7 @@
 using GameStore.Api.Users.Features.Commands.CreateUser;
 using GameStore.Api.Users.Features.Queries.GetUser;
-using GameStore.Api.Users.Infrastructure.Persistence;
+using GameStore.Api.Users.Infrastructure.Services;
+using GameStore.Api.Users.Infrastructure.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace GameStore.Api.Users;

@@ -1,5 +1,5 @@
 using GameStore.Api.Users.Connect.Features.Commands;
-using GameStore.Api.Users.Infrastructure.Persistence;
+using GameStore.Api.Users.Infrastructure.Services.Interfaces;
 using LanguageExt.Common;
 using MediatR;
 

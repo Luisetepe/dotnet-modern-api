@@ -1,4 +1,4 @@
-namespace GameStore.Api.Users.Infrastructure.Persistence;
+namespace GameStore.Api.Users.Infrastructure.Services.Interfaces;
 
 internal interface IUsersUnitOfWork
 {
